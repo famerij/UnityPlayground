@@ -16,6 +16,10 @@ public class Variables : MonoBehaviour
         // Float values can have decimals and have f suffix in C#
         floatValue = 1.5f;
 
+        // boolean values are special, must be lowercase true/false
+        booleanValue = true;
+        booleanValue = false;
+
         print("Float value is " + floatValue);
 
         intValue = 20;
