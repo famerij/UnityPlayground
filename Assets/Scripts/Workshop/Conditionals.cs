@@ -4,7 +4,7 @@ public class Conditionals : MonoBehaviour
 {
     public int value = 50;
 
-    // Update is called once per frame
+    // Start is called before the first frame update
     void Start()
     {
         if (value == 50) // See difference between assign '=' and equal comparison '=='
